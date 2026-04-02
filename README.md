@@ -32,11 +32,16 @@ pip install torch torchvision pillow
 
 Plaintext
 .
-├── main.py                          # 核心代码文件
-├── data/                            # CIFAR-10 数据集自动下载目录
-├── predict_images/                  # (自动创建) 待识别图片存放目录
-├── my_cifar10_brain_v4.pth          # 训练完成的最终“专家大脑”模型权重
-└── my_cifar10_brain_v4_checkpoint.pth # (训练中生成) 临时进度存档文件
+├── main.py
+│   # 核心代码文件
+├── data/
+│   # CIFAR-10 数据集自动下载目录
+├── predict_images/
+│   # (自动创建) 待识别图片存放目录
+├── my_cifar10_brain_v4.pth
+│   # 训练完成的最终“专家大脑”模型权重
+└── my_cifar10_brain_v4_checkpoint.pth
+    # (训练中生成) 临时进度存档文件
 🚀 使用说明
 1. 启动程序
 在终端或命令行中运行脚本：
