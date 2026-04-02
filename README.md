@@ -31,6 +31,7 @@ pip install torch torchvision pillow
 运行程序后，工作区会自动生成所需的文件和目录：
 
 Plaintext
+<pre>
 .
 ├── main.py
 │   # 核心代码文件
@@ -42,6 +43,7 @@ Plaintext
 │   # 训练完成的最终“专家大脑”模型权重
 └── my_cifar10_brain_v4_checkpoint.pth
     # (训练中生成) 临时进度存档文件
+</pre>
 🚀 使用说明
 1. 启动程序
 在终端或命令行中运行脚本：
